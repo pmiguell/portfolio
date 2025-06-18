@@ -1,9 +1,9 @@
 import style from "./ProjectCard.module.css";
 
-export default function ProjectCard({ title, description, techs, image, githubLink }) {
+export default function ProjectCard({ title, description, techs, image, linkedinLink }) {
   return (
     <a
-      href={githubLink}
+      href={linkedinLink}
       target="_blank"
       rel="noopener noreferrer"
       className={style.projectLink}
